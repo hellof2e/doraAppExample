@@ -1,0 +1,13 @@
+{
+  "miniprogramRoot": "./",
+  "projectname": "dora-app-example",
+  "description": "dora-app-example",
+  "appid": "touristappid",
+  "setting": {
+    "urlCheck": true,
+    "es6": false,
+    "postcss": false,
+    "minified": false
+  },
+  "compileType": "miniprogram"
+}
