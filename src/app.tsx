@@ -1,5 +1,5 @@
 import './context'; 
-import doraEvent from '../../src/export/doraEvent'; 
+import doraEvent from '@hellobikefe/dora/src/export//doraEvent'; 
 import { Component } from 'react'
 import { Provider } from 'mobx-react'
 

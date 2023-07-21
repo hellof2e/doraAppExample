@@ -3,7 +3,7 @@ const macros = (chain) => chain.merge({
   module : {
     rule : {
       myloader : {
-        test : /(node_modules|src).*\.(ts|tsx|js|jsx)$/,
+        test : /(node_modules\/@hellobikefe\/dora).*\.(ts|tsx|js|jsx)$/,
         use : [{
           loader : 'babel-loader',
           options : {
@@ -16,7 +16,7 @@ const macros = (chain) => chain.merge({
     },
   },
 });
-
+ 
 const config = {
   projectName: 'dora-app-example',
   date: '2023-7-17',
@@ -83,7 +83,10 @@ const config = {
           generateScopedName: '[name]__[local]___[hash:base64:5]'
         }
       }
-    }
+    },
+    webpackChain(chain) {
+      macros(chain)
+    },
   }
 }
 

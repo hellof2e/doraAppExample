@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/ban-ts-comment */
 //@ts-ignore
-import doraMergeConfig from '../../src/export/doraMergeConfig';
+import doraMergeConfig from '@hellobikefe/dora/src/export/doraMergeConfig';
 /* eslint-disable-next-line @typescript-eslint/ban-ts-comment */
 //@ts-ignore
 import aliMPConfig from './aliMPConfig.config';
