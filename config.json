@@ -3,7 +3,7 @@
     "doraSubappExample": {
       "configPath": "./src/doraSubappExample/config.ts",
       "path": "./src",
-      "repository": "git@github.com:gjc9620/dora-subapp-example.git",
+      "repository": "git@github.com:hellof2e/doraSubappExample.git",
       "subAppName": "doraSubappExample",
       "tag": "1.0.0-release/1.0.0-1689675708545"
     }

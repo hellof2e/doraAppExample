@@ -16,7 +16,8 @@
     "dev:weapp": "APPNAME=myWechatApp  npm run build:weapp -- --watch",
     "dev:alipay": "APPNAME=myAlipayApp  npm run build:alipay -- --watch",
     "dev:h5": "APPNAME=myH5App npm run build:h5 -- --watch",
-    "dev:baidu": "APPNAME=myBaiduApp  npm run build:baidu -- --watch"
+    "dev:baidu": "APPNAME=myBaiduApp  npm run build:baidu -- --watch",
+    "dora:update": "dora update"
   },
   "browserslist": [
     "last 3 versions",
